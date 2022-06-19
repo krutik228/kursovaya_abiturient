@@ -77,7 +77,6 @@ class Ui_RegistrationWindow(object):
         self.registration_btn.setText(_translate("RegistrationWindow", "Регистрация"))
         self.label_2.setText(_translate("RegistrationWindow", "Уже есть аккаунт?"))
 
-
     def registration(self):
         reg_login = self.reg_login_line.text()
         reg_password = self.reg_pass_line.text()
@@ -99,7 +98,6 @@ class Ui_RegistrationWindow(object):
 
     def sign(self):
         print("assf")
-
 
     def show_message(self, text, title):
         msg = QtWidgets.QMessageBox()
